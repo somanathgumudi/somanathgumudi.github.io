@@ -1,41 +1,215 @@
 <!DOCTYPE html>
 <html>
-   <head>
-	   <title>Somnath website</title>
-   </head>
-   <body>
-   	<ul type="square">
-   	   <li>Software
-	   	   	 <ol type="i">
-	   	   	 	<li>windows
-	   	           <ol type="A">
-	   	              <li>Ms-word</li>
-	   	              <li>Ms-excel</li>
-	   	            </ol>
-	   	        </li>
-	   	        <li>Linux
-	   	            <ol type="a">
-	   	   	          <li>libery office</li>
-	   	   	          <li>Terminal</li>
-	   	            </ol>
-	   	        </li>
-	   	        <li>Mac   
-	   	            <ol type="A">
-	   	   	          <li>Apple paint</li>
-	   	   	          <li>Apple musice</li>
-	   	   	        </ol>
-	   	   	    </li>
-	   	   	</ol>
-
-   	    <li>Hardware
-   	   	     <ol type="i">
-                 <li>CPU</li>
-   	             <li>Mouse</li>
-   	             <li>Keyboard</li>
-   	         </ol>
-   	     </li>
-    </ul>
-
-
-   </body>
+<head>
+    <title>somanath wbsite</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Me</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center" id="home">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="assets/images/laptop1 lock photo.jpg" alt="collage">
+                        <div class="carousel-caption">
+                            <h3>i am somanath</h3>
+                            <p>i am software engineer,developing in games and wbsite .</p>
+                            <form class="form-inline">
+                                <div class="input-group">
+                                    <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+                                    <div class="input-group-btn">
+                                        <button type="button" class="btn btn-danger a href="resume2.html">Contact</button>
+                                    </div>
+                                    <div class="input-group-btn">
+                                        <button type="button" class="btn btn-danger">Downlode Resume</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/me.jpg" alt="Chicago">
+                        <div class="carousel-caption">
+                            <h3>Gopalpur see beach</h3>
+                            <p>gopalpur the most beautiful place in berhampur.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/family.jpg" alt="Los Angeles">
+                        <div class="carousel-caption">
+                            <h3>My family</h3>
+                            <p>I love my family,most beautiful person in my life my father&mother.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="container-fluid" id="about">
+                <h2>About Me</h2>
+                <b><h4<p>I am software developer.can i developing website,games and applications.</p>
+            </div>
+                <div class="container-fluid text-center">
+                    <h2>Skill</h2>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <span class="glyphicon glyphicon-off"></span><b>
+                                <h4>C</h4><b>
+                                    <b><p>Lorem ipsum dolor sit amet..</p>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <span class="glyphicon glyphicon-heart"></span>
+                                        <b><h4>C++</h4>
+                                            <b><p>Lorem ipsum dolor sit amet..</p>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <b><span class="glyphicon glyphicon-star"></span>
+                                                    <b><h4>Java</h4>
+                                                        <b><p>Lorem ipsum dolor sit amet..</p>
+                                                        </div><br>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-4">
+                                                    <b><span class="glyphicon glyphicon-leaf"></span>
+                                                        <b><h4>Data base</h4>
+                                                            <b><p>Lorem ipsum dolor sit amet..</p>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-sm-4">
+                                                                    <b><span class="glyphicon glyphicon-certificate"></span>
+                                                                        <b><h4>Html</h4>
+                                                                            <b><p>Lorem ipsum dolor sit amet..</p>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-sm-4">
+                                                                                    <b><span class="glyphicon glyphicon-stop"></span>
+                                                                                        <b><h4>Css</h4>
+                                                                                            <b><p>Lorem ipsum dolor sit amet..</p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="container-fluid">
+                                                                                            <h2>Education</h2>
+                                                                                        </div>
+                                                                                        <div class="row">
+                                                                                            <div class="col-sm-4">
+                                                                                                <img src="assets/images/ndrc.jpg" class="img-responsive" style="width:100%" alt="Image">
+                                                                                                <p><b>
+                                                                                                    N.D.R.C high school khordha<br>
+                                                                                                    i am studying 1 class to 10 class in the school.<br>
+                                                                                                    my favorate teacher is swagatka shau.<br>
+                                                                                                    my 10 class marks is 38%.
+                                                                                                </p>
+                                                                                            </div>
+                                                                                            <div class="col-sm-4">
+                                                                                                <img src="assets/images/biet.jpg" class="img-responsive" style="width:100%" alt="Image">
+                                                                                                <p><b>
+                                                                                                    B.I.E.T diploma collage berhampur<br>
+                                                                                                    i am studying diploma.<br>
+                                                                                                    my branch is mechanical enginerring.<br>
+                                                                                                    my diploma marks is 82%.
+                                                                                                </p>
+                                                                                            </div>
+                                                                                            <div class="col-sm-4">
+                                                                                                <img src="assets/images/smit.jpg" class="img-responsive" style="width:100%" alt="Image">
+                                                                                                <p><b>
+                                                                                                    S.M.I.T degree collage brhampur<br>
+                                                                                                    i am studying degree.<br>
+                                                                                                    my branch is computer science enginerring.<br>
+                                                                                                    my degreemarks is 8.27.
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="text-center">
+                                                                                            <h2>Hobbes</h2>
+                                                                                            <b><p>Playing cricket,Redding books</p>
+                                                                                            </div>
+                                                                                            <div class="text-center">
+                                                                                                <h2>Language know</h2>
+                                                                                                <b><p>English,Hindi,Odia,Telugu</p>
+                                                                                                </div>
+                                                                                                <div class="container-fluid bg-grey">
+                                                                                                    <h2 class="text-center">CONTACT</h2>
+                                                                                                    <div class="row">
+                                                                                                        <div class="col-sm-5">
+                                                                                                            <p>Contact us and we'll get back to you within 24 hours.</p>
+                                                                                                            <p><span class="glyphicon glyphicon-map-marker"></span> Krupashindupalli, Odisha</p>
+                                                                                                            <p><span class="glyphicon glyphicon-phone"></span>9861136890</p>
+                                                                                                            <p><span class="glyphicon glyphicon-envelope"></span>somanathg238@gmail.com</p>
+                                                                                                        </div>
+                                                                                                        <div class="col-sm-7">
+                                                                                                            <div class="row">
+                                                                                                                <div class="col-sm-6 form-group">
+                                                                                                                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                                                                                                                </div>
+                                                                                                                <div class="col-sm-6 form-group">
+                                                                                                                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                                                                                                            <div class="row">
+                                                                                                                <div class="col-sm-12 form-group">
+                                                                                                                    <button class="btn btn-default pull-right" type="submit">Send</button>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                            </div>
+                                                            
+<img src="assets/images/map.jpg" style="width:100%">
+<footer class="container-fluid text-center">
+    <a href="#myPage" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Bootstrap Theme Made By Somanath<a href="https://github.com/somanathgumudi">https://github.com/somanathgumudi></a></p>
+</footer>
+</body>
 </html>
